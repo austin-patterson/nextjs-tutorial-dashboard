@@ -3,12 +3,12 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "start": "next start",
-    "seed": "node -r dotenv/config ./scripts/seed.js",
-    "query": "node -r dotenv/config ./scripts/debug.js",
     "lint": "next lint",
     "prettier": "prettier --write --ignore-unknown .",
-    "prettier:check": "prettier --check --ignore-unknown ."
+    "prettier:check": "prettier --check --ignore-unknown .",
+    "query": "node -r dotenv/config ./scripts/debug.js",
+    "seed": "node -r dotenv/config ./scripts/seed.js",
+    "start": "next start"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
